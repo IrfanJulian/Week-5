@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blanja</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../../owlcarousel/css/owl.theme.default.css">
+    <link rel="stylesheet" href="../../owlcarousel/css/owl.carousel.css">
+    <link rel="stylesheet" href="../../owlcarousel/css/owl.theme.green.css">
+  </head>
+  <body>
+    <!-- Navbar -->
+    <!-- Navbar  -->
+    <div class="container-fulid bg-light shadow-lg">
+      <div class="container py-4">
+          <div class="row">
+              <!-- Logo  -->
+              <div class="col-2 d-flex">
+                  <img src="../../assets/Logo.png" class="me-2" alt="Logo image">
+                  <h2 class="text-danger" style="margin-top: 10px; font-size: 29px; font-weight: bold;">Blanja</h2>
+              </div>
+              <!-- Input Search -->
+              <div class="col-5 offset-1 d-flex">
+                  <div class="input-group mt-2" style="height: 40px;">
+                      <input type="text" class="form-control" placeholder="Search..." aria-label="Example text with button addon" aria-describedby="button-addon1" style="border: 1px solid #8E8E93; border-radius: 23px;">
+                      <button class="btn position-absolute end-0" type="button" id="button-addon1"><img src="../../assets/search.svg" alt="button search"></button>
+                      <!-- <button class="btn ms-2" type="button" style="border: 1px solid #8E8E93; border-radius: 12px;"><img src="../../assets/search.svg" alt="button search"></button> -->
+                  </div>
+                  <button class="btn ms-1 mt-2 ms-3" type="button" style="height: 40px; width: 40px; border: 1px solid #8E8E93; border-radius: 12px;"><img src="../../assets/filter.svg" alt="button search"></button>
+              </div>
+              <!-- Button Group  -->
+              <div class="col-3 offset-1 d-flex">
+                  <div class="wrapper mt-2">
+                      <button type="button" class="btn"><img src="../../assets/Profile/shopping-cart.png" class="mx-2" style="height: 24px; width: 24px;" alt=""></button>
+                      <button type="button" class="btn"><img src="../../assets/profile/bell.png" class="mx-2" style="height: 24px; width: 24px;" alt=""></button> 
+                      <button type="button" class="btn"><img src="../../assets/Profile/mail.png" class="mx-2" style="height: 24px; width: 24px;" alt=""></button>
+                      <!-- Profile  -->
+                      <button class="btn dropdown-toggle overflow-hidden mx-2" style="height: 38px; width: 38px; border-radius: 50%;" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <img src="../../assets/Profile/Avatar-Profile-Vector-PNG-File.png" style="height: 38px; width: 38px; margin-left: -12px; margin-top: -8px;" alt="">
+                      </button>
+                      <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Setting</a></li>
+                          <li><a class="dropdown-item" href="#">Log Out</a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+    <!-- Carousel -->
+    <section class="container overflow-hidden mt-5" style="height: 230px; width: 100vw;">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active d-flex justify-content-center">
+              <img src="../../assets/carousel.jfif" class="d-block mx-3" style="width: 506px; height: 230px; border-radius: 8px;" alt="...">
+              <img src="../../assets/carousel2.png" class="d-block mx-3" style="width: 506px; height: 230px; border-radius: 8px;" alt="...">
+              <img src="../../assets/carousel3.png" class="d-block mx-3" style="width: 506px; height: 230px; border-radius: 8px;" alt="...">
+              <img src="../../assets/carousel4.jpg" class="d-block mx-3" style="width: 506px; height: 230px; border-radius: 8px;" alt="...">
+          </div>
+
+          <div class="carousel-item">
+              <img src="../../assets/carousel.jfif" class="d-block mx-3" style="width: 456px; height: 230px; border-radius: 8px;" alt="...">
+              <img src="../../assets/carousel2.png" class="d-block mx-3" style="width: 456px; height: 230px; border-radius: 8px;" alt="...">
+              <img src="../../assets/carousel3.png" class="d-block mx-3" style="width: 456px; height: 230px; border-radius: 8px;" alt="...">
+              <img src="../../assets/carousel4.jpg" class="d-block mx-3" style="width: 456px; height: 230px; border-radius: 8px;" alt="...">
+            </div>
+          </div>
+        
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bg-dark" style="height: 40px; width: 40px; border-radius: 50%;" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon bg-dark" style="height: 40px; width: 40px; border-radius: 50%;" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Category -->
+    <section>
+      <div class="container mt-5">
+        <h1 class="fw-bold">Category</h1>
+        <p>What are you currently looking for</p>
+        <div class="container">
+            <div class="owl-carousel owl-theme">
+              <div class="item"><h4>1</h4></div>
+              <div class="item"><h4>2</h4></div>
+              <div class="item"><h4>3</h4></div>
+              <div class="item"><h4>4</h4></div>
+              <div class="item"><h4>5</h4></div>
+              <div class="item"><h4>6</h4></div>
+              <div class="item"><h4>7</h4></div>
+              <div class="item"><h4>8</h4></div>
+              <div class="item"><h4>9</h4></div>
+              <div class="item"><h4>10</h4></div>
+              <div class="item"><h4>11</h4></div>
+              <div class="item"><h4>12</h4></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Products  -->
+    <section>
+      <div class="container mt-5">
+        <h1 class="fw-bold">New</h1>
+        <p class="mb-5">You've never seen it before</p>
+        <div class="row row-cols-5">
+          <div class="col">
+
+            <div class="card overflow-hidden" style="width: 15rem;">
+              <img src="../../assets/gez-xavier-mansfield-b34E1vh1tYU-unsplash 1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-text ">Products Name</h5>
+                <p class="text-danger" style="font-size: 19px;">$ Price</p>
+                <p>Brand</p>
+                <span><i class="bi bi-star-fill" style="font-size: 12px; color: #FFBA49;"></i></span>
+                <span><i class="bi bi-star-fill" style="font-size: 12px; color: #FFBA49;"></i></span>
+                <span><i class="bi bi-star-fill" style="font-size: 12px; color: #FFBA49;"></i></span>
+                <span><i class="bi bi-star-fill" style="font-size: 12px; color: #FFBA49;"></i></span>
+                <span><i class="bi bi-star-fill" style="font-size: 12px; color: #FFBA49;"></i></span>
+                <span class="text-secondary">( 10 )</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card overflow-hidden" style="width: 15rem;">
+              <img src="../../assets/gez-xavier-mansfield-b34E1vh1tYU-unsplash 1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-text ">Products Name</h5>
+                <p class="text-danger" style="font-size: 19px;">$ Price</p>
+                <p>Brand</p>
+                <span><i class="bi bi-star-fill" style="font-size: 12px; color: #FFBA49;"></i></span>
+                <span><i class="bi bi-star-fill" style="font-size: 12px; color: #FFBA49;"></i></span>
+                <span><i class="bi bi-star-fill" style="font-size: 12px; color: #FFBA49;"></i></span>
+                <span><i class="bi bi-star-fill" style="font-size: 12px; color: #FFBA49;"></i></span>
+                <span><i class="bi bi-star-fill" style="font-size: 12px; color: #FFBA49;"></i></span>
+                <span class="text-secondary">( 10 )</span>
+              </div>
+            </div>
+          </div>
+
+            <div class="col">
+            <div class="card overflow-hidden" style="width: 15rem;">
+              <img src="../../assets/gez-xavier-mansfield-b34E1vh1tYU-unsplash 1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-text ">Products Name</h5>
+                <p class="text-danger" style="font-size: 19px;">$ Price</p>
+                <p>Brand</p>
+                <span><i class="bi bi-star-fill" style="font-size: 12px; color: #FFBA49;"></i></span>
+                <span><i class="bi bi-star-fill" style="font-size: 12px; color: #FFBA49;"></i></span>
+                <span><i class="bi bi-star-fill" style="font-size: 12px; color: #FFBA49;"></i></span>
+                <span><i class="bi bi-star-fill" style="font-size: 12px; color: #FFBA49;"></i></span>
+                <span><i class="bi bi-star-fill" style="font-size: 12px; color: #FFBA49;"></i></span>
+                <span class="text-secondary">( 10 )</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card overflow-hidden" style="width: 15rem;">
+              <img src="../../assets/gez-xavier-mansfield-b34E1vh1tYU-unsplash 1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-text ">Products Name</h5>
+                <p class="text-danger" style="font-size: 19px;">$ Price</p>
+                <p>Brand</p>
+                <span><i class="bi bi-star-fill" style="font-size: 12px; color: #FFBA49;"></i></span>
+                <span><i class="bi bi-star-fill" style="font-size: 12px; color: #FFBA49;"></i></span>
+                <span><i class="bi bi-star-fill" style="font-size: 12px; color: #FFBA49;"></i></span>
+                <span><i class="bi bi-star-fill" style="font-size: 12px; color: #FFBA49;"></i></span>
+                <span><i class="bi bi-star-fill" style="font-size: 12px; color: #FFBA49;"></i></span>
+                <span class="text-secondary">( 10 )</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card overflow-hidden" style="width: 15rem;">
+              <img src="../../assets/gez-xavier-mansfield-b34E1vh1tYU-unsplash 1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-text ">Products Name</h5>
+                <p class="text-danger" style="font-size: 19px;">$ Price</p>
+                <p>Brand</p>
+                <span><i class="bi bi-star-fill" style="font-size: 12px; color: #FFBA49;"></i></span>
+                <span><i class="bi bi-star-fill" style="font-size: 12px; color: #FFBA49;"></i></span>
+                <span><i class="bi bi-star-fill" style="font-size: 12px; color: #FFBA49;"></i></span>
+                <span><i class="bi bi-star-fill" style="font-size: 12px; color: #FFBA49;"></i></span>
+                <span><i class="bi bi-star-fill" style="font-size: 12px; color: #FFBA49;"></i></span>
+                <span class="text-secondary">( 10 )</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Popular Products  -->
+    <section>
+      <div class="container my-5">
+        <h1 class="fw-bold">New</h1>
+        <p class="mb-5">Find clothes that are trending recently</p>
+        <div class="row row-cols-5">
+          <div class="col">
+            
+            <div class="card overflow-hidden" style="width: 15rem;">
+              <img src="../../assets/gez-xavier-mansfield-b34E1vh1tYU-unsplash 1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-text ">Products Name</h5>
+                <p class="text-danger" style="font-size: 19px;">$ Price</p>
+                <p>Brand</p>
+                <span><i class="bi bi-star-fill" style="font-size: 12px; color: #FFBA49;"></i></span>
+                <span><i class="bi bi-star-fill" style="font-size: 12px; color: #FFBA49;"></i></span>
+                <span><i class="bi bi-star-fill" style="font-size: 12px; color: #FFBA49;"></i></span>
+                <span><i class="bi bi-star-fill" style="font-size: 12px; color: #FFBA49;"></i></span>
+                <span><i class="bi bi-star-fill" style="font-size: 12px; color: #FFBA49;"></i></span>
+                <span class="text-secondary">( 10 )</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card overflow-hidden" style="width: 15rem;">
+              <img src="../../assets/gez-xavier-mansfield-b34E1vh1tYU-unsplash 1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-text ">Products Name</h5>
+                <p class="text-danger" style="font-size: 19px;">$ Price</p>
+                <p>Brand</p>
+                <span><i class="bi bi-star-fill" style="font-size: 12px; color: #FFBA49;"></i></span>
+                <span><i class="bi bi-star-fill" style="font-size: 12px; color: #FFBA49;"></i></span>
+                <span><i class="bi bi-star-fill" style="font-size: 12px; color: #FFBA49;"></i></span>
+                <span><i class="bi bi-star-fill" style="font-size: 12px; color: #FFBA49;"></i></span>
+                <span><i class="bi bi-star-fill" style="font-size: 12px; color: #FFBA49;"></i></span>
+                <span class="text-secondary">( 10 )</span>
+              </div>
+            </div>
+          </div>
+
+            <div class="col">
+            <div class="card overflow-hidden" style="width: 15rem;">
+              <img src="../../assets/gez-xavier-mansfield-b34E1vh1tYU-unsplash 1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-text ">Products Name</h5>
+                <p class="text-danger" style="font-size: 19px;">$ Price</p>
+                <p>Brand</p>
+                <span><i class="bi bi-star-fill" style="font-size: 12px; color: #FFBA49;"></i></span>
+                <span><i class="bi bi-star-fill" style="font-size: 12px; color: #FFBA49;"></i></span>
+                <span><i class="bi bi-star-fill" style="font-size: 12px; color: #FFBA49;"></i></span>
+                <span><i class="bi bi-star-fill" style="font-size: 12px; color: #FFBA49;"></i></span>
+                <span><i class="bi bi-star-fill" style="font-size: 12px; color: #FFBA49;"></i></span>
+                <span class="text-secondary">( 10 )</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card overflow-hidden" style="width: 15rem;">
+              <img src="../../assets/gez-xavier-mansfield-b34E1vh1tYU-unsplash 1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-text ">Products Name</h5>
+                <p class="text-danger" style="font-size: 19px;">$ Price</p>
+                <p>Brand</p>
+                <span><i class="bi bi-star-fill" style="font-size: 12px; color: #FFBA49;"></i></span>
+                <span><i class="bi bi-star-fill" style="font-size: 12px; color: #FFBA49;"></i></span>
+                <span><i class="bi bi-star-fill" style="font-size: 12px; color: #FFBA49;"></i></span>
+                <span><i class="bi bi-star-fill" style="font-size: 12px; color: #FFBA49;"></i></span>
+                <span><i class="bi bi-star-fill" style="font-size: 12px; color: #FFBA49;"></i></span>
+                <span class="text-secondary">( 10 )</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card overflow-hidden" style="width: 15rem;">
+              <img src="../../assets/gez-xavier-mansfield-b34E1vh1tYU-unsplash 1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-text ">Products Name</h5>
+                <p class="text-danger" style="font-size: 19px;">$ Price</p>
+                <p>Brand</p>
+                <span><i class="bi bi-star-fill" style="font-size: 12px; color: #FFBA49;"></i></span>
+                <span><i class="bi bi-star-fill" style="font-size: 12px; color: #FFBA49;"></i></span>
+                <span><i class="bi bi-star-fill" style="font-size: 12px; color: #FFBA49;"></i></span>
+                <span><i class="bi bi-star-fill" style="font-size: 12px; color: #FFBA49;"></i></span>
+                <span><i class="bi bi-star-fill" style="font-size: 12px; color: #FFBA49;"></i></span>
+                <span class="text-secondary">( 10 )</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
